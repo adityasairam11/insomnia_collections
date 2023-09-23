@@ -1,0 +1,17 @@
+_id: env_709a5b025bc441fe81e6a735d5553d6e
+type: Environment
+parentId: env_9903e75c4728ae54d4b263141cdb23fb3a1f6fef
+modified: 1695492482958
+created: 1695468117433
+name: dummyJsonEnv
+data:
+  base_url: https://dummyjson.com
+  auth_token: Bearer {% response 'body', 'req_8a396eab2db34d0c848219618456e9b4',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}
+dataPropertyOrder:
+  "&":
+    - base_url
+    - auth_token
+color: null
+isPrivate: false
+metaSortKey: 1695468117434

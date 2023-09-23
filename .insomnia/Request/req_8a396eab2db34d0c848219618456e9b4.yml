@@ -1,0 +1,31 @@
+_id: req_8a396eab2db34d0c848219618456e9b4
+type: Request
+parentId: wrk_c8f813cdd1374b63adc2ef0b1b1f67c4
+modified: 1695492240670
+created: 1695466924996
+url: "{{ _.base_url }}/auth/login"
+name: Generate auth token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "kminchelle",
+    	"password": "0lelplR"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695492106731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_407cf1af27de415ab872228917525b8a
+type: Request
+parentId: wrk_c8f813cdd1374b63adc2ef0b1b1f67c4
+modified: 1695492357380
+created: 1695492106631
+url: "{{ _.base_url }}/auth/resource"
+name: get resource
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_3dec5a11178c41c2814ae9fbc8ee1252
+  - id: pair_c16a3a20aeae46459f5db069c73f9134
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_81acbf2bde334b1b8de5aa0ac87d52dd
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1695492106631
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
